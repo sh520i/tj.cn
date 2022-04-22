@@ -14,7 +14,7 @@ function playMusic() {
     var player = document.getElementById("audio");
     play();
     function play(){
-    swal("请问是否开启音乐\n请上下滑动切换图", {
+    swal("请问是否开启音乐呢？", {
             buttons: {
                 cancel: "开启",
                 allow: "关闭"
